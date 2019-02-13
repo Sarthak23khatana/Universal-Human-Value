@@ -16,7 +16,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 100) {
-	    $("nav").css("background" , "rgba(103, 58, 183,.99)");
+	    $("nav").css("background" , "rgba(3, 169, 244,.99)");
       $("nav").css("box-shadow" , "2px 5px 5px -6px #000");
       $("nav").css("transition" , ".3s");
 	  }
