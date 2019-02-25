@@ -2,13 +2,15 @@
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 400 && scroll < 1000) {
+	  if (scroll > 400 ) {
 	    $(".fab").css("color" , "#000");
       $(".fab").css("transition" , ".3s");
+      $(".fab").css("text-shadow" , "none");
 	  }
 
 	  else{
 		  $(".fab").css("color" , "#fff");
+      $(".fab").css("text-shadow" , "2px 2px 3px #000");
 	  }
   })
 });

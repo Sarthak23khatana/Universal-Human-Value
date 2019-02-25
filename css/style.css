@@ -64,9 +64,15 @@ nav{
   font-size: 45px;
   font-weight: bold;
   color: #ffffff;
+  padding:20px 50px 20px 50px;
+  text-shadow: 2px 2px 3px #000;
 }
 .main-title u{
-  color: #ffc107;
+  color:#ffc107;
+}
+.main-title-h3 {
+  padding-left: 50px;
+  text-shadow: 1px 1px 3px #000;
 }
 .header h3{
   color: #ffc107;
@@ -86,7 +92,7 @@ nav{
   padding: 20px;
 }
 .faculty-feedback,.student-feedback{
-  padding: 5px;
+  padding: 10px;
   background-color: rgba(3, 169, 244,.99);
   font-weight: bold;
   color: #ffffff;
@@ -95,19 +101,93 @@ nav{
 /* video-section */
 /* about-section */
 .about-page{
-  height: 100vh;
-  background-color: #9e9e9e;
+  background-color: #fff;
   color: #fff;
+}
+.about-us{
+  color: #000;
+  position: absolute;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.box{
+  width: 60px;
+  height: 50px;
+  background-color: rgba(3, 169, 244,1);
+  position: absolute;
+  z-index: 0;
+  margin-left: 190px;
+  margin-top: 50px;
+}
+.about-text{
+  padding-top:150px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #000;
+  line-height: 40px;
+}
+
+.workshops p ,.student-members p , .teacher-members p {
+  color: #fff;
+  background-color: #000;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+}
+.workshops h1 ,.student-members h1 ,.teacher-members h1 {
+  background-color: rgba(3, 169, 244,.99);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px 50px 0px;
+  padding: 60px;
+  text-shadow: 1px 1px 5px #000;
+  font-family: 'Poiret One', sans-serif ;
+  font-size: 56px !important;
+}
+.workshops h1 {
+  background-image: url("../images/bg-2.jpg");
+}
+.student-members h1{
+  background-image: url("../images/bg-3.jpg");
+}
+.teacher-members h1{
+  background-image: url("../images/bg-4.jpg");
 }
 /* about-section */
-.resource-page{
-  height: 100vh;
-  background-color: #212121;
-  color: #fff;
-}
+
 #navbarTogglerDemo03{
   float: right;
 }
+/* contact-us */
+.resource-page{
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+.contact-us{
+  color: #000;
+  position: absolute;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.contact-box{
+  width: 60px;
+  height: 50px;
+  background-color: rgba(3, 169, 244,1);
+  position: absolute;
+  z-index: 0;
+  margin-left: 225px;
+  margin-top: 50px;
+}
+.contact-us-img{
+ margin:20px 0px 20px 0px;
+}
+/* /contact-us */
 /* footer */
 .footer{
   width: 100vw;
@@ -170,6 +250,17 @@ nav{
     font-family: 'Montserrat', sans-serif;
     float: right;
     margin-top: 20px;
+  }
+  .about-text{
+    padding-top:150px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .workshops h1 ,.student-members h1 ,.teacher-members h1 {
+    margin: 0px 0px 20px 0px;
   }
     /* about */
 
