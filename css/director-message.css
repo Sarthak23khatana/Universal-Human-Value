@@ -62,8 +62,8 @@ nav{
 #navbarTogglerDemo03{
   float: right;
 }
-/*vision*/
-.vision{
+/*director-message*/
+.director-message{
   background-color: #fff;
   text-align: justify;
   text-justify: inter-word;
@@ -71,8 +71,12 @@ nav{
   padding-bottom: 70px;
   font-size: 12pt;
   line-height: 29pt;
+
 }
-.vision-col{
+.director-img{
+  margin-top: 70px;
+}
+.director-message-col{
   background-color: #fff;
   color: #000;
   padding: 20px;
@@ -85,17 +89,17 @@ nav{
   position: absolute;
 }
 .tittle-box{
-  width: 120px;
+  width: 140px;
   height: 40px;
   background-color: #03a9f4;
   position: absolute;
-  margin: 0px 0px 0px 115px;
+  margin: 0px 0px 0px 120px;
   z-index: 1;
 }
-.vision-col p{
+.director-message-col p{
   margin-top: 50px;
 }
-/*vision*/
+/*director-message*/
 /* footer */
 .footer{
   width: 100vw;
@@ -131,7 +135,7 @@ nav{
   .nav-options ul li a{
     text-align: center;
   }
-  .vision{
+  .director-message{
     padding: 10px;
     font-size: 10pt;
     line-height: 20pt;
